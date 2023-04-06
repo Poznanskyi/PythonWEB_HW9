@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "webhw07"
+version = "0.1.0"
+description = ""
+authors = ["Poznanskyi <shazampoz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alembic = "^1.10.3"
+faker = "^18.3.4"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
